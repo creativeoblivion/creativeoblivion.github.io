@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+body{
+	background-color:#0080C0;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	padding:20px 10px;
+	font-family: 'Graduate', cursive;
+	text-align:center;
+}
+p{
+	margin:0 auto;
+	width:30em;
+	text-align:center;
+}
+a{
+	color:#fff;
+}
+a:hover{
+	text-decoration:none;
+	}
+a:visited{
+	color:#fff;
+}
+div img{
+	margin:0px auto;
+	display:block;
+	width:auto;
+}
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+}
+#nav li{
+	margin: 0 0 15px 0;	
+}
+#intro, #second, #third, #fourth, #fifth{
+	padding: 200px 0 0 0;
+	height: 800px;
+}
+#intro{
+	background:url(img/firstBG.jpg) 50% 0 no-repeat fixed;
+}
+
+#second{
+	background: url(img/secondBG.jpg) 50% 0 no-repeat fixed;
+}
+
+#third{
+	background: url(img/thirdBG.jpg) 50% 0 no-repeat fixed;
+}
+
+#fourth{
+	background: url(img/fourthBG.jpg) 50% 0 no-repeat fixed;
+}
+#fifth{
+	background: url(img/fifthBG.jpg) 50% 0 no-repeat fixed;
+}
+#contact{
+	padding: 200px 0 20px 0;
+	height: 800px;
+	background:#0080C0;
+}
